@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Veri ve çıktılar (büyük dosyalar git'e gönderilmez)
+veri/*
+!veri/README.md
+*.db
+*.ply
+*.obj
+
+# Editör / sistem
+.vscode/
+.idea/
+.DS_Store
